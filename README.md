@@ -11,18 +11,18 @@ SQLite (default) for the database
 Chart.js for reports
 ## Installation
 ### 1. Clone the Repo
-' git clone https://github.com/SwamWaiYan/rumi-press-management.git
-' cd rumi-press-management
+'git clone https://github.com/SwamWaiYan/rumi-press-management.git'
+'cd rumi-press-management'
 ### 2. Set up Virtual Environment
-' python3 -m venv env
-' source env/bin/activate  # On Windows: `env\Scripts\activate`
+'python3 -m venv env'
+'source env/bin/activate'  # On Windows: `env\Scripts\activate`
 ### 3. Set up Database
-' python manage.py makemigrations
-' python manage.py migrate
+'python manage.py makemigrations'
+'python manage.py migrate'
 ### 4. Create Admin User
-' python manage.py createsuperuser
+'python manage.py createsuperuser'
 ### 5. Run Development Server
-' python manage.py runserver
+'python manage.py runserver'
 Access the app at http://127.0.0.1:8000/ and the admin at http://127.0.0.1:8000/admin.
 
 ## Usage
@@ -31,7 +31,7 @@ Add Books: Add book details (ID, title, author, category, distribution expense).
 Import Data: Prepare a CSV file and run python manage.py import_data to import books.
 View Reports: Access distribution expenses by category with charts.
 ## Running Tests
-' python manage.py test
+'python manage.py test'
 ## Deployment
 Follow Django’s deployment checklist for production setup. Use a production database (e.g., PostgreSQL), set DEBUG = False, and configure a web server like Gunicorn or Nginx.
 
