@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Distribution Expenses Report</title>
+</head>
+<body>
+
+    <h1>Distribution Expenses Report by Category</h1>
+
+    <!-- Display the data in a simple list format -->
+    <ul>
+        {% for category, expense in report_data.items %}
+            <li>{{ category }}: {{ expense|floatformat:2 }}</li>
+        {% empty %}
+            <li>No data available.</li>
+        {% endfor %}
+    </ul>
+
+</body>
+</html>
+
+
