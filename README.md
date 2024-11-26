@@ -39,9 +39,9 @@ View Reports: Access distribution expenses by category with charts.
 Follow Django’s deployment checklist for production setup. Use a production database (e.g., PostgreSQL), set DEBUG = False, and configure a web server like Gunicorn or Nginx.
 
 ## Contributing
-### 1. Fork the repo.
-### 2. Create a branch for your feature.
-### 3. Commit and push changes.
-### 4. Create a pull request.
+1. Fork the repo.
+2. Create a branch for your feature.
+3. Commit and push changes.
+4. Create a pull request.
 ## License
 MIT License.
