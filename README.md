@@ -11,7 +11,7 @@ SQLite (default) for the database
 Chart.js for reports
 ## Installation
 ### 1. Clone the Repo
-'git clone https://github.com/SwamWaiYan/rumi-press-management.git'
+'''git clone https://github.com/SwamWaiYan/rumi-press-management.git
 'cd rumi-press-management'
 ### 2. Set up Virtual Environment
 'python3 -m venv env'
