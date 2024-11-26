@@ -16,6 +16,7 @@ Chart.js for reports
 `cd rumi-press-management`
 ### 2. Set up Virtual Environment
 `python3 -m venv env`
+
 `source env/bin/activate`  # On Windows: `env\Scripts\activate`
 ### 3. Set up Database
 `python manage.py makemigrations`
